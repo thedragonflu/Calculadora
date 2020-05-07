@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\erick\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\steve\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erick\\source\\repos\\Prueba1\\Prueba1\\Prueba1.csproj",
+      "projectUniqueName": "C:\\Users\\steve\\Source\\Repos\\Calculadora\\Prueba1\\Prueba1.csproj",
       "projectName": "Prueba1",
-      "projectPath": "C:\\Users\\erick\\source\\repos\\Prueba1\\Prueba1\\Prueba1.csproj",
-      "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erick\\source\\repos\\Prueba1\\Prueba1\\obj\\",
+      "projectPath": "C:\\Users\\steve\\Source\\Repos\\Calculadora\\Prueba1\\Prueba1.csproj",
+      "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\steve\\Source\\Repos\\Calculadora\\Prueba1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
