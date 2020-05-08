@@ -28,20 +28,20 @@
             </div>
             <br />
         </div>
-            <div class="form-group">
-                <div class="row">                    
-                    <div class="col">
-                        <input class="col btn-success" type="button" value="Sumar" onclick="Resultado.calculator.resul.value+='+'" />
-                        <input class="col btn-success" type="button" value="Restar" onclick="Resultado.calculator.resul.value+='-'" />
-                        <input class="col btn-success" type="button" value="Multiplicar" onclick="Resultado.calculator.resul.value+='*'" />
-                        <input class="col btn-success" type="button" value="Dividir" onclick="Resultado.calculator.resul.value+='/'" />
-                        <br />
-                        <br />
-                        <a asp-page="Resultado" class="btn btn-success form-control">Aceptar</a>
-                    </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col">
+                    <input class="col btn-success" type="button" value="Sumar" onclick="Resultado.calculator.resul.value+='+'" />
+                    <input class="col btn-success" type="button" value="Restar" onclick="Resultado.calculator.resul.value+='-'" />
+                    <input class="col btn-success" type="button" value="Multiplicar" onclick="Resultado.calculator.resul.value+='*'" />
+                    <input class="col btn-success" type="button" value="Dividir" onclick="Resultado.calculator.resul.value+='/'" />
+                    <br />
+                    <br />
+                    <a asp-page="Resultado" class="btn btn-success form-control">Aceptar</a>
                 </div>
-                <br />
-                <input class="col-sm-2 btn-danger" type="reset" value="C" />
             </div>
+            <br />
+            <input class="col-sm-2 btn-danger" type="reset" value="C" />
+        </div>
     </form>
 </div>
