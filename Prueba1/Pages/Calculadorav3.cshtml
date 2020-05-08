@@ -28,22 +28,22 @@
             </div>
             <br />
             <br />
-            <div class="col-sm-6">
-                <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='+'" class="btn btn-success form-control">Sumar</a>
-                <br />
-                <br />
-                <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='-'" class="btn btn-success form-control">Resta</a>
-                <br />
-                <br />
-                <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='*'" class="btn btn-success form-control">Multiplicación</a>
-                <br />
-                <br />
-                <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='/'" class="btn btn-success form-control">División</a>
-                <br />
-                <br />
-            </div>
-            <br />
-            <input class="col-sm-2 btn-danger" type="reset" value="C" />
         </div>
+            <div class="form-group">
+                <div class="row">                    
+                     <div class="col-sm-2">
+                    <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='+'" class="btn btn-success form-control">Sumar</a>
+                    <br />
+                    <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='-'" class="btn btn-success form-control">Resta</a>
+                    <br />
+                    <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='*'" class="btn btn-success form-control">Multiplicación</a>
+                    <br />
+                    <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='/'" class="btn btn-success form-control">División</a>
+                    <br />
+                    </div>
+                </div>
+                <br />
+                <input class="col-sm-2 btn-danger" type="reset" value="C" />
+            </div>
     </form>
 </div>
