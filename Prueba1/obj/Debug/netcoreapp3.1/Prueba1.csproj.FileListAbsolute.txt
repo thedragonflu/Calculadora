@@ -145,3 +145,5 @@ C:\Users\erick\Source\Repos\thedragonflu\Calculadora\Prueba1\bin\Debug\netcoreap
 C:\Users\erick\Source\Repos\thedragonflu\Calculadora\Prueba1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\erick\Source\Repos\thedragonflu\Calculadora\Prueba1\obj\Debug\netcoreapp3.1\Prueba1.csproj.CoreCompileInputs.cache
 C:\Users\erick\Source\Repos\thedragonflu\Calculadora\Prueba1\obj\Debug\netcoreapp3.1\Prueba1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\erick\Source\Repos\thedragonflu\Calculadora\Prueba1\obj\Debug\netcoreapp3.1\Razor\Pages\Calculadorav3.cshtml.g.cs
+C:\Users\erick\Source\Repos\thedragonflu\Calculadora\Prueba1\obj\Debug\netcoreapp3.1\Razor\Pages\Resultado.cshtml.g.cs
