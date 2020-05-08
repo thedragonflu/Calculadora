@@ -1,8 +1,40 @@
 ﻿@page
-@model Prueba1.Pages.Calculadorav3Model
+@model IndexModel
 @{
-    ViewData["Title"] = "Calculadorav3";
+    ViewData["Title"] = "Calculadora";
 }
 
-<h1>Calculadorav3</h1>
-
+<div class="text-center container row">
+    <form name="calculator">
+        <br />
+        <div class="form-group">
+            <h1 class="text-center">Calculadora</h1>
+            <div class="row">
+                <div class="col-sm-3">
+                    <label>Número 1:</label>
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" name="num1" onkeypress="Resultado.calculator.resul.value+=document.calculator.num1.value" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-3">
+                    <label>Número 2:</label>
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" name="num2" onkeypress="Resultado.calculator.resul.value+=document.calculator.num2.value" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='+'" class="btn btn-success form-control">Sumar</a>
+            <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='-'" class="btn btn-success form-control">Resta</a>
+            <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='*'" class="btn btn-success form-control">Multiplicación</a>
+            <a asp-page="Resultado" onclick="Resultado.calculator.resul.value+='/'" class="btn btn-success form-control">División</a>
+            <br />
+            <br />
+            <input class="col-sm-2 btn-danger" type="reset" value="C" />
+        </div>
+    </form>
+</div>
