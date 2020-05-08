@@ -1,5 +1,5 @@
 ﻿@page
-@model PruebaCalculadora.Pages.ResultadoModel
+@model ResultadoModel
 @{
     ViewData["Title"] = "Resultado";
 }
@@ -23,6 +23,6 @@
         <input class="col-sm-2" type="button" value="=" onclick="document.calculator.resul.value=eval(document.calculator.resul.value)" />
         <br />
         <br />
-        <a asp-page="Index" class="btn btn-success form-control">Volver</a>
+        <a asp-page="Calculadorav3" class="btn btn-success form-control">Volver</a>
     </div>
 </form>
