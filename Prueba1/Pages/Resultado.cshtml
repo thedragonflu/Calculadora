@@ -20,9 +20,14 @@
             </div>
         </div>
         <br />
+        <br />
         <input class="col-sm-2" type="button" value="=" onclick="document.calculator.resul.value=eval(document.calculator.resul.value)" />
         <br />
         <br />
-        <a asp-page="Calculadorav3" class="btn btn-success form-control">Volver</a>
+        <div>
+            <p>parrafo antes del boton</p>
+            <a asp-page="Calculadorav3" class="btn btn-success form-control">Volver</a>
+            <p>parrafo despues del boton</p>
+        </div>
     </div>
 </form>
