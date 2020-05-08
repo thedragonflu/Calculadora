@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erick\\Source\\Repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj": {}
+    "C:\\Users\\erick\\source\\repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erick\\Source\\Repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj": {
+    "C:\\Users\\erick\\source\\repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erick\\Source\\Repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj",
+        "projectUniqueName": "C:\\Users\\erick\\source\\repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj",
         "projectName": "Prueba1",
-        "projectPath": "C:\\Users\\erick\\Source\\Repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj",
+        "projectPath": "C:\\Users\\erick\\source\\repos\\thedragonflu\\Calculadora\\Prueba1\\Prueba1.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erick\\Source\\Repos\\thedragonflu\\Calculadora\\Prueba1\\obj\\",
+        "outputPath": "C:\\Users\\erick\\source\\repos\\thedragonflu\\Calculadora\\Prueba1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.0-preview1-19509-03, )"
             }
           },
           "imports": [
