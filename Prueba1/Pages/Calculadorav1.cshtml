@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Calculadora";
+}
+
+<div class="text-center container row">
+    <form name="calculator">
+        <br />
+        <div class="form-group">
+            <h3>Calculadora</h3>
+            <input class="col-sm-6" type="text" name="ans" value="">
+        </div>
+
+        <input class="col-sm-3" type="button" value="1" onClick="document.calculator.ans.value+='1'">
+        <input class="col-sm-3" type="button" value="2" onClick="document.calculator.ans.value+='2'">
+        <input class="col-sm-3" type="button" value="3" onClick="document.calculator.ans.value+='3'">
+        <input class="col-sm-2 bg-secondary text-light" type="button" value="+" onClick="document.calculator.ans.value+='+'">
+
+        <input class="col-sm-3" type="button" value="4" onClick="document.calculator.ans.value+='4'">
+        <input class="col-sm-3" type="button" value="5" onClick="document.calculator.ans.value+='5'">
+        <input class="col-sm-3" type="button" value="6" onClick="document.calculator.ans.value+='6'">
+        <input class="col-sm-2 bg-secondary text-light" type="button" value="-" onClick="document.calculator.ans.value+='-'">
+
+        <input class="col-sm-3" type="button" value="7" onClick="document.calculator.ans.value+='7'">
+        <input class="col-sm-3" type="button" value="8" onClick="document.calculator.ans.value+='8'">
+        <input class="col-sm-3" type="button" value="9" onClick="document.calculator.ans.value+='9'">
+        <input class="col-sm-2 bg-secondary text-light" type="button" value="*" onClick="document.calculator.ans.value+='*'">
+
+        <input class="col-sm-3 bg-danger text-light" type="reset" value="c">
+        <input class="col-sm-3" type="button" value="0" onClick="document.calculator.ans.value+='0'">
+        <input class="col-sm-3 bg-secondary text-light" type="button" value="/" onClick="document.calculator.ans.value+='/'">
+        <input class="col-sm-2 bg-secondary text-light" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+    </form>
+</div>
