@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\curso18-19\\Desktop\\Pruebas Club Deportivo\\Fase Inicial\\Calculadora\\Prueba1\\Prueba1.csproj",
+      "projectUniqueName": "C:\\Users\\curso18-19\\Source\\Repos\\Calculadora\\Prueba1\\Prueba1.csproj",
       "projectName": "Prueba1",
-      "projectPath": "C:\\Users\\curso18-19\\Desktop\\Pruebas Club Deportivo\\Fase Inicial\\Calculadora\\Prueba1\\Prueba1.csproj",
+      "projectPath": "C:\\Users\\curso18-19\\Source\\Repos\\Calculadora\\Prueba1\\Prueba1.csproj",
       "packagesPath": "C:\\Users\\curso18-19\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\curso18-19\\Desktop\\Pruebas Club Deportivo\\Fase Inicial\\Calculadora\\Prueba1\\obj\\",
+      "outputPath": "C:\\Users\\curso18-19\\Source\\Repos\\Calculadora\\Prueba1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
