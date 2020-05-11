@@ -4,7 +4,7 @@
     ViewData["Title"] = "Calculadora";
 }
 
-<div class="text-center container row">
+<div class="text-left container row">
     <form name="calculator">
         <br />
         <div class="form-group">
@@ -22,8 +22,10 @@
         </div>
         <br />
         <br />
-        <div>
-            <input type="button" onclick="Calculadorav1" value="Calcladora versión 1"/>     <input type="button" onclick="Calculadorav2" value="Calcladora versión 2"/>
+        <div class="text-center">
+            <a class="col-sm-10 nav-link btn btn bg-success text-light btn-lg" asp-page="/Calculadorav1">Calculadora V1</a>
+            <br />
+            <a class="col-sm-10 nav-link btn btn bg-success text-light btn-lg" asp-page="/Calculadorav2">Calculadora V2</a>
         </div>
     </form>
 </div>
