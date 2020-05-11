@@ -8,45 +8,61 @@
     <form name="calculator">
         <br />
         <div class="form-group">
-            <h1 class="text-center">Calculadora</h1>
+            <div>
+                <h1 class="text-center">CALCULADORA</h1>
+            </div>
+            <br />
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <label>Número 1:</label>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <input type="text" name="num1" onkeypress="document.calculator.resul.value+=document.calculator.num1.value" />
                 </div>
             </div>
             <br />
-            <input class="col-sm-2" type="button" value="+" onclick="document.calculator.resul.value+='+'" />
-            <input class="col-sm-2" type="button" value="-" onclick="document.calculator.resul.value+='-'" />
-            <input class="col-sm-2" type="button" value="*" onclick="document.calculator.resul.value+='*'" />
-            <input class="col-sm-2" type="button" value="/" onclick="document.calculator.resul.value+='/'" />
+            <div class="btn-group col-lg-3">
+                <input class="btn btn-secondary" type="button" value="+" onclick="document.calculator.resul.value+='+'" />
+                <input class="btn btn-dark" type="button" value="-" onclick="document.calculator.resul.value+='-'" />
+                <input class="btn btn-secondary" type="button" value="*" onclick="document.calculator.resul.value+='*'" />
+                <input class="btn btn-dark" type="button" value="/" onclick="document.calculator.resul.value+='/'" />
+            </div>
+            @*<br />
+            <input class="col-sm-2 btn btn-secondary" type="button" value="+" onclick="document.calculator.resul.value+='+'" />
+            <input class="col-sm-2 btn btn-secondary" type="button" value="-" onclick="document.calculator.resul.value+='-'" />
+            <input class="col-sm-2 btn btn-secondary" type="button" value="*" onclick="document.calculator.resul.value+='*'" />
+            <input class="col-sm-2 btn btn-secondary" type="button" value="/" onclick="document.calculator.resul.value+='/'" />*@
             <br />
             <br />
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <label>Número 2:</label>
                 </div>
-                <div class="col-sm-3">
-                    <input type="text" name="num2" onkeypress="document.calculator.resul.value+=document.calculator.num2.value" />
+                <div class="col-sm-4">
+                    <input type="number" name="num2" onkeypress="document.calculator.resul.value+=document.calculator.num2.value" />
                 </div>
             </div>
             <br />
-            <input class="col-sm-2" type="button" value="=" onclick="document.calculator.resul.value=eval(document.calculator.resul.value)" />
+            <input class="col-sm-11 btn btn-secondary" type="button" value="=" onclick="document.calculator.resul.value=eval(document.calculator.resul.value)" />
             <br />
             <br />
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <label>Operación:</label>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <input type="text" name="resul" />
                 </div>
             </div>
             <br />
-            <input class="col-sm-2 btn-danger" type="reset" value="C" />
+            <div>
+                <input class="col-sm-11 btn btn-danger btn-l" type="reset" value="C" />
+            </div>
+            <br />
+            <br />
+            <div>
+                <a class="col-lg-1 nav-link btn btn bg-success text-light" asp-page="/Index">Volver</a>
+            </div>
         </div>
     </form>
 </div>
-
