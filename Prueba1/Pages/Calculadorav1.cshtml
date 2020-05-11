@@ -5,35 +5,44 @@
 }
 
 <div class="text-center container row">
-    <form name="calculator">
+    <form class="text-center" name="calculator">
         <br />
-        <div class="form-group">
-            <h3>Calculadora</h3>
-            <input class="col-sm-6" type="text" name="ans" value="">
+        <div class="form-group text-center container row">
+            <div>
+                <h1>CALCULADORA</h1>
+            </div>
         </div>
-
-        <input class="col-sm-3" type="button" value="1" onClick="document.calculator.ans.value+='1'">
-        <input class="col-sm-3" type="button" value="2" onClick="document.calculator.ans.value+='2'">
-        <input class="col-sm-3" type="button" value="3" onClick="document.calculator.ans.value+='3'">
-        <input class="col-sm-2 bg-secondary text-light" type="button" value="+" onClick="document.calculator.ans.value+='+'">
-
-        <input class="col-sm-3" type="button" value="4" onClick="document.calculator.ans.value+='4'">
-        <input class="col-sm-3" type="button" value="5" onClick="document.calculator.ans.value+='5'">
-        <input class="col-sm-3" type="button" value="6" onClick="document.calculator.ans.value+='6'">
-        <input class="col-sm-2 bg-secondary text-light" type="button" value="-" onClick="document.calculator.ans.value+='-'">
-
-        <input class="col-sm-3" type="button" value="7" onClick="document.calculator.ans.value+='7'">
-        <input class="col-sm-3" type="button" value="8" onClick="document.calculator.ans.value+='8'">
-        <input class="col-sm-3" type="button" value="9" onClick="document.calculator.ans.value+='9'">
-        <input class="col-sm-2 bg-secondary text-light" type="button" value="*" onClick="document.calculator.ans.value+='*'">
-
-        <input class="col-sm-3 bg-danger text-light" type="reset" value="c">
-        <input class="col-sm-3" type="button" value="0" onClick="document.calculator.ans.value+='0'">
-        <input class="col-sm-3 bg-secondary text-light" type="button" value="/" onClick="document.calculator.ans.value+='/'">
-        <input class="col-sm-2 bg-secondary text-light" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+        <div class="form-group">
+            <input class="col-sm-10" type="text" name="ans" value="">
+        </div>
+        <br/>
+        <div class="form-group">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="1" onClick="document.calculator.ans.value+='1'">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="2" onClick="document.calculator.ans.value+='2'">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="3" onClick="document.calculator.ans.value+='3'">
+            <input class="col-sm-2 btn btn-dark btn-lg" type="button" value="+" onClick="document.calculator.ans.value+='+'">
+        </div>
+        <div class="form-group">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="4" onClick="document.calculator.ans.value+='4'">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="5" onClick="document.calculator.ans.value+='5'">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="6" onClick="document.calculator.ans.value+='6'">
+            <input class="col-sm-2 btn btn-dark btn-lg" type="button" value="-" onClick="document.calculator.ans.value+='-'">
+        </div>
+        <div class="form-group">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="7" onClick="document.calculator.ans.value+='7'">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="8" onClick="document.calculator.ans.value+='8'">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="9" onClick="document.calculator.ans.value+='9'">
+            <input class="col-sm-2 btn btn-dark btn-lg" type="button" value="*" onClick="document.calculator.ans.value+='*'">
+        </div>
+        <div class="form-group">
+            <input class="col-sm-3 btn btn-danger btn-lg" type="reset" value="c">
+            <input class="col-sm-3 btn btn-secondary btn-lg" type="button" value="0" onClick="document.calculator.ans.value+='0'">
+            <input class="col-sm-3 btn btn-dark btn-lg" type="button" value="/" onClick="document.calculator.ans.value+='/'">
+            <input class="col-sm-2 btn btn-dark btn-lg" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+        </div>
+        <br />
+        <div>
+            <a class="col-lg-1 nav-link btn btn bg-success text-light btn-lg" asp-page="/Index">Volver</a>
+        </div>
     </form>
-</div>
-
-<div>
-    <input type="button" onclick="Index" value="Atras" />
 </div>
